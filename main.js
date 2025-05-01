@@ -7,6 +7,9 @@
 // console.log(hamburger.name); //'Double Cheese Burger' 
 // console.log(secondBurger.name); // 'Double Cheese Burger' 
 
+//Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+//1
+
 
 
 
@@ -23,11 +26,14 @@
 // console.log(hamburger.ingredients[0]); // "Salad"
 // console.log(secondBurger.ingredients[0]); // "Salad"
 
+//Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
+//2,ma l'array viene condiviso tra i 2 oggetti
+
 
 
 //Code Question 3 
 //Quanti oggetti sono stati creati in memoria durante l'esecuzione di questo codice?
-//Sono stati creati 3 oggetti in memoria, 2 dei quali sono nuovi oggetti creati tramite metodo di copia structuredClone.
+//Sono stati creati 9 oggetti in memoria,includendo anche gli oggetti maker e restaurant
 const hamburger = {
     name: "Cheese Burger",
     weight: 250,
